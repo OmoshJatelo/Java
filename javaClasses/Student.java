@@ -1,3 +1,5 @@
+package javaClasses;
+
 public class Student extends User{
     char grade;
     String comment;
@@ -11,10 +13,10 @@ public class Student extends User{
         System.out.println("Your Grade :" +grade);
         System.out.println(comment);
     }
-    public static void main() {
+    public static void main(String[] args) {
 
         Student student1 =new Student("Smart",21,'A',"This is very Assiduous");
-        student1.greetJatelo();
+        student1.greet();
         student1.showGrade();
 
     }
